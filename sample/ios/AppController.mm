@@ -10,6 +10,7 @@
 #import "cocos2d.h"
 #import "EAGLView.h"
 #import "AppDelegate.h"
+#import "CCFileUtils.h"
 
 #import "RootViewController.h"
 
@@ -25,9 +26,9 @@
 static AppDelegate s_sharedApplication;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
     // Override point for customization after application launch.
-
+    
     // Add the view controller's view to the window and display.
     window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     EAGLView *__glView = [EAGLView viewWithFrame: [window bounds]
@@ -37,12 +38,12 @@ static AppDelegate s_sharedApplication;
                                       sharegroup: nil
                                    multiSampling: NO
                                  numberOfSamples:0 ];
-
+    
     // Use RootViewController manage EAGLView
     viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
     viewController.wantsFullScreenLayout = YES;
     viewController.view = __glView;
-
+    
     // Set RootViewController to window
     if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
     {
@@ -56,10 +57,35 @@ static AppDelegate s_sharedApplication;
     }
     
     [window makeKeyAndVisible];
-
+    
     [[UIApplication sharedApplication] setStatusBarHidden: YES];
-
+    
+    
+    {
+        cocos2d::CCDirector *pDirector = cocos2d::CCDirector::sharedDirector();
+        cocos2d::CCFileUtils *fileUtils = cocos2d::CCFileUtils::sharedFileUtils();
+        
+        bool iPad = NO;
+#ifdef UI_USER_INTERFACE_IDIOM
+        iPad =(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
+#endif
+        
+        bool retina = [[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2;
+        
+        if (iPad && retina) {
+            fileUtils->setResourceDirectory("ipadhd");
+            pDirector->setContentScaleFactor(4.0f);
+        } else if (iPad || retina) {
+            fileUtils->setResourceDirectory("hd");
+            pDirector->setContentScaleFactor(2.0f);
+        } else {
+            fileUtils->setResourceDirectory("sd");
+            pDirector->setContentScaleFactor(1.0f);
+        }
+    }
+    
     cocos2d::CCApplication::sharedApplication()->run();
+    
     return YES;
 }
 
@@ -109,7 +135,7 @@ static AppDelegate s_sharedApplication;
     /*
      Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
      */
-     cocos2d::CCDirector::sharedDirector()->purgeCachedData();
+    cocos2d::CCDirector::sharedDirector()->purgeCachedData();
 }
 
 
