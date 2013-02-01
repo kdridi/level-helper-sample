@@ -43,7 +43,7 @@
 	<key>Device</key>
 	<integer>2</integer>
 	<key>Engine</key>
-	<integer>5</integer>
+	<integer>0</integer>
 	<key>HDSuffix</key>
 	<string>-hd</string>
 	<key>LastLevelLoaded</key>

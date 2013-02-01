@@ -10,6 +10,7 @@
 
 #include "cocos2d.h"
 #include "AppLevelHelper.h"
+#include "LHSettings.h"
 
 USING_NS_CC;
 
@@ -27,6 +28,21 @@ bool AppDelegate::applicationDidFinishLaunching()
     // initialize director
     CCDirector *pDirector = CCDirector::sharedDirector();
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
+    
+    CCSize s = CCEGLView::sharedOpenGLView()->getFrameSize();
+    if (s.width == 480 || s.height == 480) {
+        CCFileUtils::sharedFileUtils()->setResourceDirectory("sd");
+        pDirector->setContentScaleFactor(1.0f);
+    } else if (s.width == 640 || s.height == 640) {
+        CCFileUtils::sharedFileUtils()->setResourceDirectory("hd");
+        pDirector->setContentScaleFactor(2.0f);
+    } else if (s.width == 1024 || s.height == 1024) {
+        CCFileUtils::sharedFileUtils()->setResourceDirectory("hd");
+        pDirector->setContentScaleFactor(2.0f);
+    } else if (s.width == 2048 || s.height == 2048) {
+        CCFileUtils::sharedFileUtils()->setResourceDirectory("ipadhd");
+        pDirector->setContentScaleFactor(4.0f);
+    }
 
     // turn on display FPS
     pDirector->setDisplayStats(true);

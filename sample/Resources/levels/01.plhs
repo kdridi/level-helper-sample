@@ -50,7 +50,7 @@
 							<key>SHSheetName</key>
 							<string>sheet</string>
 							<key>SHSpriteName</key>
-							<string>blue</string>
+							<string>elgo_cour</string>
 							<key>SheetImage</key>
 							<string>sprites_sheet.png</string>
 							<key>TextureProperties</key>
@@ -64,19 +64,19 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{0, 0}, {28, 67.75}}</string>
+								<string>{{138, 251}, {28, 67.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
 								<false/>
 								<key>IsRotated</key>
-								<false/>
+								<true/>
 								<key>Locked</key>
 								<false/>
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{240, 40}</string>
+								<string>{446, 41.875}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -88,12 +88,12 @@
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
-								<string>blue</string>
+								<string>elgo_cour</string>
 								<key>ZOrder</key>
 								<integer>0</integer>
 							</dict>
 							<key>UniqueName</key>
-							<string>blue</string>
+							<string>elgo_cour</string>
 						</dict>
 						<dict>
 							<key>AnimationsProperties</key>
@@ -125,7 +125,7 @@
 							<key>SHSheetName</key>
 							<string>sheet</string>
 							<key>SHSpriteName</key>
-							<string>red</string>
+							<string>elgo_repos</string>
 							<key>SheetImage</key>
 							<string>sprites_sheet.png</string>
 							<key>TextureProperties</key>
@@ -139,19 +139,19 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{29, 0}, {28, 67.75}}</string>
+								<string>{{0, 251}, {28, 67.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
 								<false/>
 								<key>IsRotated</key>
-								<false/>
+								<true/>
 								<key>Locked</key>
 								<false/>
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{240, 120}</string>
+								<string>{446, 121.875}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -163,12 +163,12 @@
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
-								<string>red</string>
+								<string>elgo_repos</string>
 								<key>ZOrder</key>
 								<integer>0</integer>
 							</dict>
 							<key>UniqueName</key>
-							<string>red</string>
+							<string>elgo_repos</string>
 						</dict>
 						<dict>
 							<key>AnimationsProperties</key>
@@ -200,7 +200,7 @@
 							<key>SHSheetName</key>
 							<string>sheet</string>
 							<key>SHSpriteName</key>
-							<string>yellow</string>
+							<string>elgo_saut</string>
 							<key>SheetImage</key>
 							<string>sprites_sheet.png</string>
 							<key>TextureProperties</key>
@@ -214,7 +214,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{0, 69}, {28, 67.75}}</string>
+								<string>{{69, 251}, {28, 67.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -226,7 +226,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{240, 200}</string>
+								<string>{446, 201.875}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -238,12 +238,12 @@
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
-								<string>yellow</string>
+								<string>elgo_saut</string>
 								<key>ZOrder</key>
 								<integer>0</integer>
 							</dict>
 							<key>UniqueName</key>
-							<string>yellow</string>
+							<string>elgo_saut</string>
 						</dict>
 						<dict>
 							<key>AnimationsProperties</key>
@@ -275,7 +275,7 @@
 							<key>SHSheetName</key>
 							<string>sheet</string>
 							<key>SHSpriteName</key>
-							<string>blue</string>
+							<string>elgo_cour</string>
 							<key>SheetImage</key>
 							<string>sprites_sheet.png</string>
 							<key>TextureProperties</key>
@@ -289,19 +289,19 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{0, 0}, {28, 67.75}}</string>
+								<string>{{138, 251}, {28, 67.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
 								<false/>
 								<key>IsRotated</key>
-								<false/>
+								<true/>
 								<key>Locked</key>
 								<false/>
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{240, 280}</string>
+								<string>{446, 281.875}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -313,12 +313,87 @@
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
-								<string>blue_1</string>
+								<string>elgo_cour_1</string>
 								<key>ZOrder</key>
 								<integer>0</integer>
 							</dict>
 							<key>UniqueName</key>
-							<string>blue_1</string>
+							<string>elgo_cour_1</string>
+						</dict>
+						<dict>
+							<key>AnimationsProperties</key>
+							<dict/>
+							<key>Children</key>
+							<array/>
+							<key>CustomClassInfo</key>
+							<dict>
+								<key>ClassDefaults</key>
+								<dict/>
+								<key>ClassName</key>
+								<string>No Class</string>
+							</dict>
+							<key>NodeType</key>
+							<string>LHSprite</string>
+							<key>ParentClass</key>
+							<string>LHBatch</string>
+							<key>ParentName</key>
+							<string>sheet</string>
+							<key>PathProperties</key>
+							<dict/>
+							<key>PhysicProperties</key>
+							<dict>
+								<key>HandledBySH</key>
+								<true/>
+							</dict>
+							<key>SHSceneName</key>
+							<string>sprites.pshs</string>
+							<key>SHSheetName</key>
+							<string>sheet</string>
+							<key>SHSpriteName</key>
+							<string>rond</string>
+							<key>SheetImage</key>
+							<string>sprites_sheet.png</string>
+							<key>TextureProperties</key>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Color</key>
+								<string>{{1, 1}, {1, 1}}</string>
+								<key>FlipX</key>
+								<false/>
+								<key>FlipY</key>
+								<false/>
+								<key>Frame</key>
+								<string>{{0, 0}, {250, 250}}</string>
+								<key>IsDrawable</key>
+								<true/>
+								<key>IsExpanded</key>
+								<false/>
+								<key>IsRotated</key>
+								<false/>
+								<key>Locked</key>
+								<false/>
+								<key>Opacity</key>
+								<real>1</real>
+								<key>Position</key>
+								<string>{161.95652770996094, 161.95652770996094}</string>
+								<key>Scale</key>
+								<string>{1.2652853727340698, 1.2652853727340698}</string>
+								<key>SpriteSize</key>
+								<string>{256, 256}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>TagName</key>
+								<string>DEFAULT</string>
+								<key>TextureOffset</key>
+								<string>{1.75, 0.75}</string>
+								<key>UniqueName</key>
+								<string>rond</string>
+								<key>ZOrder</key>
+								<integer>0</integer>
+							</dict>
+							<key>UniqueName</key>
+							<string>rond</string>
 						</dict>
 					</array>
 					<key>CustomClassInfo</key>
@@ -337,7 +412,7 @@
 					<key>SheetImage</key>
 					<string>sprites_sheet.png</string>
 					<key>SheetImageRelative</key>
-					<string>/sprites_sheet.png</string>
+					<string>/sd/sprites_sheet.png</string>
 					<key>Tag</key>
 					<integer>0</integer>
 					<key>TagName</key>

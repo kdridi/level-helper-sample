@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		098218287e8441d877351806 /* LHSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7f10035913896586536eb6b5 /* LHSettings.cpp */; };
+		0ADE368716BC10C500F3A53A /* 01.plhs in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE367916BC10C500F3A53A /* 01.plhs */; };
+		0ADE368F16BC10C500F3A53A /* sprites.pshs in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE368616BC10C500F3A53A /* sprites.pshs */; };
+		0ADE369816BC179600F3A53A /* sd in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE369516BC179600F3A53A /* sd */; };
+		0ADE369916BC179600F3A53A /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE369616BC179600F3A53A /* ipadhd */; };
+		0ADE369A16BC179600F3A53A /* hd in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE369716BC179600F3A53A /* hd */; };
 		0AFFF3CC16BBEE4200DAEF08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFFF3CB16BBEE4200DAEF08 /* QuartzCore.framework */; };
 		0AFFF3CE16BBEE4200DAEF08 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFFF3CD16BBEE4200DAEF08 /* OpenGLES.framework */; };
 		0AFFF3D016BBEE4200DAEF08 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AFFF3CF16BBEE4200DAEF08 /* OpenAL.framework */; };
@@ -245,11 +250,6 @@
 		0AFFF6F316BBEE4500DAEF08 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF6F216BBEE4500DAEF08 /* b2Rope.cpp */; };
 		0AFFF6FA16BBEE4500DAEF08 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF6F916BBEE4500DAEF08 /* AppDelegate.cpp */; };
 		0AFFF6FD16BBEE4500DAEF08 /* AppLevelHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF6FC16BBEE4500DAEF08 /* AppLevelHelper.cpp */; };
-		0AFFF71016BBEFB700DAEF08 /* 01.plhs in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF70616BBEFB700DAEF08 /* 01.plhs */; };
-		0AFFF71516BBEFB700DAEF08 /* sprites.pshs in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF70C16BBEFB700DAEF08 /* sprites.pshs */; };
-		0AFFF71616BBEFB700DAEF08 /* sprites_sheet-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF70D16BBEFB700DAEF08 /* sprites_sheet-hd.png */; };
-		0AFFF71716BBEFB700DAEF08 /* sprites_sheet-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF70E16BBEFB700DAEF08 /* sprites_sheet-ipadhd.png */; };
-		0AFFF71816BBEFB700DAEF08 /* sprites_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF70F16BBEFB700DAEF08 /* sprites_sheet.png */; };
 		0AFFF72516BBF00300DAEF08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF72416BBF00300DAEF08 /* Default-568h@2x.png */; };
 		0AFFF72816BBF14600DAEF08 /* AppDebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF72716BBF14600DAEF08 /* AppDebugDraw.cpp */; };
 		0AFFF74E16BBF6C900DAEF08 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFF74016BBF6C900DAEF08 /* Default@2x.png */; };
@@ -282,6 +282,11 @@
 
 /* Begin PBXFileReference section */
 		079316f68f4d54356a040fb9 /* LHCustomSpriteMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHCustomSpriteMgr.h; sourceTree = "<group>"; };
+		0ADE367916BC10C500F3A53A /* 01.plhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 01.plhs; sourceTree = "<group>"; };
+		0ADE368616BC10C500F3A53A /* sprites.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sprites.pshs; sourceTree = "<group>"; };
+		0ADE369516BC179600F3A53A /* sd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sd; sourceTree = "<group>"; };
+		0ADE369616BC179600F3A53A /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
+		0ADE369716BC179600F3A53A /* hd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hd; sourceTree = "<group>"; };
 		0AFFF3C716BBEE4200DAEF08 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFFF3CB16BBEE4200DAEF08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0AFFF3CD16BBEE4200DAEF08 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -799,11 +804,6 @@
 		0AFFF6F916BBEE4500DAEF08 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		0AFFF6FB16BBEE4500DAEF08 /* AppLevelHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppLevelHelper.h; path = Classes/AppLevelHelper.h; sourceTree = "<group>"; };
 		0AFFF6FC16BBEE4500DAEF08 /* AppLevelHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppLevelHelper.cpp; path = Classes/AppLevelHelper.cpp; sourceTree = "<group>"; };
-		0AFFF70616BBEFB700DAEF08 /* 01.plhs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 01.plhs; sourceTree = "<group>"; };
-		0AFFF70C16BBEFB700DAEF08 /* sprites.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sprites.pshs; sourceTree = "<group>"; };
-		0AFFF70D16BBEFB700DAEF08 /* sprites_sheet-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprites_sheet-hd.png"; sourceTree = "<group>"; };
-		0AFFF70E16BBEFB700DAEF08 /* sprites_sheet-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprites_sheet-ipadhd.png"; sourceTree = "<group>"; };
-		0AFFF70F16BBEFB700DAEF08 /* sprites_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprites_sheet.png; sourceTree = "<group>"; };
 		0AFFF72416BBF00300DAEF08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		0AFFF72616BBF14600DAEF08 /* AppDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDebugDraw.h; path = Classes/AppDebugDraw.h; sourceTree = "<group>"; };
 		0AFFF72716BBF14600DAEF08 /* AppDebugDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDebugDraw.cpp; path = Classes/AppDebugDraw.cpp; sourceTree = "<group>"; };
@@ -880,6 +880,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ADE367816BC10C500F3A53A /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				0ADE369516BC179600F3A53A /* sd */,
+				0ADE369616BC179600F3A53A /* ipadhd */,
+				0ADE369716BC179600F3A53A /* hd */,
+				0ADE367916BC10C500F3A53A /* 01.plhs */,
+				0ADE368616BC10C500F3A53A /* sprites.pshs */,
+			);
+			name = levels;
+			path = Resources/levels;
+			sourceTree = "<group>";
+		};
 		0AFFF3BC16BBEE4200DAEF08 = {
 			isa = PBXGroup;
 			children = (
@@ -928,7 +941,7 @@
 		0AFFF3DC16BBEE4200DAEF08 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AFFF70516BBEFB700DAEF08 /* levels */,
+				0ADE367816BC10C500F3A53A /* levels */,
 				0AFFF74016BBF6C900DAEF08 /* Default@2x.png */,
 				0AFFF74116BBF6C900DAEF08 /* Default-Portrait~ipad.png */,
 				0AFFF74216BBF6C900DAEF08 /* Default-Portrait@2x~ipad.png */,
@@ -1909,19 +1922,6 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		0AFFF70516BBEFB700DAEF08 /* levels */ = {
-			isa = PBXGroup;
-			children = (
-				0AFFF70616BBEFB700DAEF08 /* 01.plhs */,
-				0AFFF70C16BBEFB700DAEF08 /* sprites.pshs */,
-				0AFFF70D16BBEFB700DAEF08 /* sprites_sheet-hd.png */,
-				0AFFF70E16BBEFB700DAEF08 /* sprites_sheet-ipadhd.png */,
-				0AFFF70F16BBEFB700DAEF08 /* sprites_sheet.png */,
-			);
-			name = levels;
-			path = Resources/levels;
-			sourceTree = "<group>";
-		};
 		187c6ad3a74cc93ac6c2229d /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2059,17 +2059,17 @@
 				0AFFF3F016BBEE4200DAEF08 /* Icon@2x.png in Resources */,
 				0AFFF3F216BBEE4200DAEF08 /* iTunesArtwork in Resources */,
 				0AFFF48416BBEE4200DAEF08 /* ChangeLog in Resources */,
-				0AFFF71016BBEFB700DAEF08 /* 01.plhs in Resources */,
-				0AFFF71516BBEFB700DAEF08 /* sprites.pshs in Resources */,
-				0AFFF71616BBEFB700DAEF08 /* sprites_sheet-hd.png in Resources */,
-				0AFFF71716BBEFB700DAEF08 /* sprites_sheet-ipadhd.png in Resources */,
-				0AFFF71816BBEFB700DAEF08 /* sprites_sheet.png in Resources */,
 				0AFFF72516BBF00300DAEF08 /* Default-568h@2x.png in Resources */,
 				0AFFF74E16BBF6C900DAEF08 /* Default@2x.png in Resources */,
 				0AFFF74F16BBF6C900DAEF08 /* Default-Portrait~ipad.png in Resources */,
 				0AFFF75016BBF6C900DAEF08 /* Default-Portrait@2x~ipad.png in Resources */,
 				0AFFF75116BBF6C900DAEF08 /* Default-Landscape~ipad.png in Resources */,
 				0AFFF75216BBF6C900DAEF08 /* Default-Landscape@2x~ipad.png in Resources */,
+				0ADE368716BC10C500F3A53A /* 01.plhs in Resources */,
+				0ADE368F16BC10C500F3A53A /* sprites.pshs in Resources */,
+				0ADE369816BC179600F3A53A /* sd in Resources */,
+				0ADE369916BC179600F3A53A /* ipadhd in Resources */,
+				0ADE369A16BC179600F3A53A /* hd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2299,6 +2299,7 @@
 				0AFFF6F316BBEE4500DAEF08 /* b2Rope.cpp in Sources */,
 				0AFFF6FA16BBEE4500DAEF08 /* AppDelegate.cpp in Sources */,
 				0AFFF6FD16BBEE4500DAEF08 /* AppLevelHelper.cpp in Sources */,
+				0AFFF72816BBF14600DAEF08 /* AppDebugDraw.cpp in Sources */,
 				7afb38927921799020ac1866 /* LHObject.cpp in Sources */,
 				1121bed98bd0649845aa2474 /* LHDictionary.cpp in Sources */,
 				0b9b3b23b5d6d662e0610d78 /* LHArray.cpp in Sources */,
@@ -2321,7 +2322,6 @@
 				c576463cf670ad3d17b050cf /* LHSprite.cpp in Sources */,
 				5bc412c3f37bf8c03d9aed39 /* LHTouchMgr.cpp in Sources */,
 				9ca5b9b68c62c7fd28954add /* SHDocumentLoader.cpp in Sources */,
-				0AFFF72816BBF14600DAEF08 /* AppDebugDraw.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
